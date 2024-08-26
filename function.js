@@ -3,6 +3,9 @@ const countervalue = document.querySelector('#counter');
 const increment=()=>{
   
     //get value from ui
+
+    // and change the string value into the integer value using parseInt
+
     let value= parseInt(countervalue.innerText);
 
     value=value+1;
